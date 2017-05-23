@@ -11,7 +11,8 @@ namespace Caicho.Demo.Areas.Web.Controllers
         // GET: Web/Home
         public ActionResult Index()
         {
-            return View();
+            return new FilePathResult("~/build/index.html", "text/html");
+            //return View();
         }
     }
 }

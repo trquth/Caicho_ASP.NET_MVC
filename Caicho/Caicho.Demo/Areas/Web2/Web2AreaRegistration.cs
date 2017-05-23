@@ -16,7 +16,7 @@ namespace Caicho.Demo.Areas.Web2
         {
             context.MapRoute(
                 "Web2_default",
-                "{controller}/{action}/{id}",
+                "w/{controller}/{action}/{id}",
                 new { action = "Index",controller = "Home", id = UrlParameter.Optional },
                 namespaces: new string[] { "Caicho.Demo.Areas.Web2.Controllers" }
             );

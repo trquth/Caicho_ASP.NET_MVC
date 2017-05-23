@@ -184,6 +184,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="build\favicon.ico" />
+    <Content Include="build\index.html" />
+    <Content Include="build\static\css\main.73417c6d.css" />
+    <Content Include="build\static\js\main.2cbaf219.js" />
+    <Content Include="build\static\media\bag.acde3bc8.jpg" />
+    <Content Include="build\static\media\glyphicons-halflings-regular.89889688.svg" />
+    <Content Include="build\static\media\img-sprite.309e6177.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -196,6 +203,13 @@
     <Content Include="Areas\Web\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Web\Views\Home\Index.cshtml" />
     <Content Include="Areas\Web2\Views\web.config" />
+    <Content Include="build\asset-manifest.json" />
+    <Content Include="build\static\css\main.73417c6d.css.map" />
+    <Content Include="build\static\js\main.2cbaf219.js.map" />
+    <Content Include="build\static\media\glyphicons-halflings-regular.448c34a5.woff2" />
+    <Content Include="build\static\media\glyphicons-halflings-regular.e18bbf61.ttf" />
+    <Content Include="build\static\media\glyphicons-halflings-regular.f4769f9b.eot" />
+    <Content Include="build\static\media\glyphicons-halflings-regular.fa277232.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
